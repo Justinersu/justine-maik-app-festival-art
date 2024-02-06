@@ -1,3 +1,16 @@
 /*------ Styles Généraux ------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: var(--noir);
+}
+
+
+.logo, .profil {
+    height: 25px;
+}
 
 /*------ Section Hero ------*/
