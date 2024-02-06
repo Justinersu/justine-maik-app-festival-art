@@ -4,13 +4,32 @@
     padding: 0;
 }
 
+body {
+    background-color: var(--noir);
+}
+
 .navbar {
     background-color: var(--noir);
 }
 
-
-.logo, .profil {
+.logo {
     height: 25px;
+}
+
+.profil {
+    height: 30px;
+}
+
+#tim {
+    height: 100px;
+    width: 100px;
+}
+
+#footer {
+    background-color: var(--blanc);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 /*------ Section Hero ------*/
