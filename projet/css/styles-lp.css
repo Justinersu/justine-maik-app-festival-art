@@ -1,3 +1,39 @@
 /*------ Styles Généraux ------*/
+body {
+  background-color: var(--noir);
+  font-family: var(--Karla);
+}
+p {
+  font-family: var(--Karla);
+}
+
+.navbar {
+  background-color: var(--blanc);
+}
+
+footer {
+  width: 100%;
+  background-color: var(--lime);
+}
 
 /*------ Section Hero ------*/
+
+h1 {
+  font-size: 37px;
+}
+.titre {
+  background: none;
+  font-size: 60px;
+  font-weight: bolder;
+  color: var(--lime);
+}
+
+mark.vert {
+  color: var(--lime);
+  font-weight: bold;
+  background: none;
+}
+
+#appli {
+  margin-top: 150px;
+}
