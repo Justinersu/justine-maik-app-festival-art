@@ -18,9 +18,9 @@
     />
     <title>Document</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#mainNav">
     <header>
-      <nav class="navbar navbar-light navbar-expand-lg sticky-top">
+      <nav class="navbar navbar-light navbar-expand-lg fixed-top">
         <div class="container">
           <!-----hamburger----->
           <a href="index.html" class="navbar-brand">
@@ -46,16 +46,16 @@
                 <a href="#appli" class="nav-link">L'appli</a>
               </li>
               <li class="navbar-item">
-                <a href="#fonctionnalite" class="nav-link">Fonctionnalité</a>
-              </li>
-              <li class="navbar-item">
-                <a href="#tarif" class="nav-link">Tarifs</a>
+                <a href="#fonction" class="nav-link">Fonctionnalité</a>
               </li>
               <li class="navbar-item">
                 <a href="#voirplus" class="nav-link">En voir plus</a>
               </li>
               <li class="navbar-item">
                 <a href="#temoignages" class="nav-link">Témoignages</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#infolettre" class="nav-link">Infolettre</a>
               </li>
             </ul>
           </div>
@@ -66,7 +66,7 @@
     <main>
       <div class="container" id="appli">
         <!-- texte qui presente  l'application -->
-        <div class="row">
+        <div id="hero" class="row">
           <div class="col-12 col-lg-6">
             <h1 class="text-center text-lg-start">
               Découvrez <mark class="vert">l'appli</mark> officielle du festival
@@ -82,19 +82,20 @@
                 Téléchargez maintenant
               </button>
             </div>
-
-            <!--
-              <p class="text-center text-lg-start"></p>
-            -->
           </div>
 
           <div class="col-12 col-lg-6">
             <!-- cadre pour l'application-->
-            <div class="row"></div>
-            <p class="text-center text-lg-start">allo</p>
+            <div id="cadre" class="ratio ratio-5x9">
+              <iframe src="/projet/app/index.html" frameborder="0"></iframe>
+            </div>
           </div>
         </div>
       </div>
+      <div class="container" id="fonction"></div>
+      <div class="container" id="voirplus"></div>
+      <div class="container" id="temoignages"></div>
+      <div class="container" id="infolettre"></div>
     </main>
 
     <!--- footer-->

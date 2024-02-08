@@ -18,12 +18,17 @@ footer {
 
 .active {
   background-color: var(--lime);
+  border-radius: 5px;
 }
 
 /*------ Section Hero ------*/
 
 h1 {
   font-size: 37px;
+}
+
+#hero {
+  margin-top: 350px;
 }
 
 .titre {
@@ -40,11 +45,8 @@ mark.vert {
   background: none;
 }
 
-#appli {
-  margin-top: 150px;
-}
-
 .btn-primary {
+  height: 40px;
   background-color: var(--vertpastel);
   border-color: var(--vertpastel);
   color: var(--noir);
@@ -56,4 +58,8 @@ mark.vert {
   background-color: var(--lime);
   border-color: var(--lime);
   color: var(--noir);
+}
+
+#cadre {
+  aspect-ratio: 5/9;
 }
