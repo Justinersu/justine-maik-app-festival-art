@@ -11,6 +11,11 @@ p {
   background-color: var(--blanc);
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 footer {
   width: 100%;
   background-color: var(--lime);
@@ -28,7 +33,11 @@ h1 {
 }
 
 #hero {
-  margin-top: 350px;
+  margin-top: 100px;
+}
+
+#texte {
+  margin-top: 200px;
 }
 
 .titre {
@@ -46,7 +55,9 @@ mark.vert {
 }
 
 .btn-primary {
-  height: 40px;
+  margin-bottom: 100px;
+  height: 55px;
+  width: 300px;
   background-color: var(--vertpastel);
   border-color: var(--vertpastel);
   color: var(--noir);
@@ -62,4 +73,14 @@ mark.vert {
 
 #cadre {
   aspect-ratio: 5/9;
+}
+
+iframe {
+  border-style: inset;
+  border-width: 5px;
+  border-color: var(--lime);
+  border-radius: 25px;
+  /*
+  box-shadow: 0 0 100px rgb(255, 255, 255);
+  */
 }
