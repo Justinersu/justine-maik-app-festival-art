@@ -4,3 +4,4 @@
 
 #ignore file vendors
 **./vendors
+.vendors
