@@ -1,0 +1,86 @@
+/*------ Styles Généraux ------*/
+body {
+  background-color: var(--noir);
+  font-family: var(--Karla);
+}
+p {
+  font-family: var(--Karla);
+}
+
+.navbar {
+  background-color: var(--blanc);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  width: 100%;
+  background-color: var(--lime);
+}
+
+.active {
+  background-color: var(--lime);
+  border-radius: 5px;
+}
+
+/*------ Section Hero ------*/
+
+h1 {
+  font-size: 37px;
+}
+
+#hero {
+  margin-top: 100px;
+}
+
+#texte {
+  margin-top: 200px;
+}
+
+.titre {
+  background: none;
+  font-size: 65px;
+  font-weight: bolder;
+  font-style: italic;
+  color: var(--lime);
+}
+
+mark.vert {
+  color: var(--lime);
+  font-weight: bold;
+  background: none;
+}
+
+.btn-primary {
+  margin-bottom: 100px;
+  height: 55px;
+  width: 300px;
+  background-color: var(--vertpastel);
+  border-color: var(--vertpastel);
+  color: var(--noir);
+  font-weight: 600;
+  border-radius: 13px;
+}
+
+.btn-primary:hover {
+  background-color: var(--lime);
+  border-color: var(--lime);
+  color: var(--noir);
+}
+
+#cadre {
+  aspect-ratio: 5/9;
+}
+
+iframe {
+  border-style: inset;
+  border-width: 5px;
+  border-color: var(--lime);
+  border-radius: 25px;
+  /*
+  box-shadow: 0 0 100px rgb(255, 255, 255);
+  */
+}
