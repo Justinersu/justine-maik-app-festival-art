@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: var(--noir);
+    background-color: var(--bs-dark);
 }
 
 .recherche {
@@ -24,7 +24,7 @@ body {
 }
 
 .navbar {
-    background-color: var(--noir);
+    background-color: var(--bs-dark);
 }
 
 .logo {
@@ -41,7 +41,7 @@ body {
 }
 
 #footer {
-    background-color: var(--blanc);
+    background-color: var(--bs-white);
     width: 100%;
     position: absolute;
     bottom: 0;
