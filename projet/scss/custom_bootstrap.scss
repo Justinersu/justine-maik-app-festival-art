@@ -1,0 +1,24 @@
+//Variables
+$light: #fbf8e4;
+$dark: #000000;
+$primary: #80f956;
+$secondary: #ddfcd1;
+$info: #00d3e8;
+$success: #13ee00;
+$warning: #ffd787;
+$danger: #ff4063;
+$white: #ffffff;
+
+$theme-colors: (
+    "light": #fbf8e4,
+    "dark": #000000,
+    "primary": #80f956,
+    "secondary": #ddfcd1,
+    "info": #00d3e8,
+    "success": #13ee00,
+    "warning": #ffd787,
+    "danger": #ff4063
+);
+
+//Import bootstrap
+@import "../vendors/bootstrap-5.3.2/scss/bootstrap.scss";
