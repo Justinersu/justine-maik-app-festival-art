@@ -1,14 +1,9 @@
 /*------ Styles Généraux ------*/
 body {
-  background-color: var(--noir);
   font-family: var(--Karla);
 }
 p {
   font-family: var(--Karla);
-}
-
-.navbar {
-  background-color: var(--blanc);
 }
 
 * {
@@ -18,11 +13,10 @@ p {
 
 footer {
   width: 100%;
-  background-color: var(--lime);
 }
 
 .active {
-  background-color: var(--lime);
+  background: var(--bs-primary);
   border-radius: 5px;
 }
 
@@ -45,11 +39,10 @@ h1 {
   font-size: 65px;
   font-weight: bolder;
   font-style: italic;
-  color: var(--lime);
 }
 
 mark.vert {
-  color: var(--lime);
+  color: var(--bs-primary);
   font-weight: bold;
   background: none;
 }
@@ -58,17 +51,17 @@ mark.vert {
   margin-bottom: 100px;
   height: 55px;
   width: 300px;
-  background-color: var(--vertpastel);
-  border-color: var(--vertpastel);
-  color: var(--noir);
+  background-color: var(--bs-secondary);
+  border-color: var(--bs-secondary);
+  color: var(--bs-dark);
   font-weight: 600;
   border-radius: 13px;
 }
 
 .btn-primary:hover {
-  background-color: var(--lime);
-  border-color: var(--lime);
-  color: var(--noir);
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: var(--bs-dark);
 }
 
 #cadre {
@@ -78,7 +71,7 @@ mark.vert {
 iframe {
   border-style: inset;
   border-width: 5px;
-  border-color: var(--lime);
+  border-color: var(--bs-primary);
   border-radius: 25px;
   /*
   box-shadow: 0 0 100px rgb(255, 255, 255);
