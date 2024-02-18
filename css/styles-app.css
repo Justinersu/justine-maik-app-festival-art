@@ -51,4 +51,34 @@ body {
     border: none;
 }
 
+.vedette {
+    position: relative;
+    top: 86px;
+}
+
+.card {
+    text-decoration: none;
+}
+
+.card-img-top {
+    height: 20vh;
+    object-fit: cover;
+    object-position: 50%;
+}
+
+
+
+.date, .heure {
+    font-size: 13px;
+}
+
+.artiste {
+    height: 25px;
+    border-radius: 20px;
+}
+
+h4 {
+    color: black;
+
+}
 /*------ Section Hero ------*/
