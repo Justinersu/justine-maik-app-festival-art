@@ -76,7 +76,7 @@
     <main>
       <div class="container">
         <!-- Champ de recherche -->
-        <div class="recherche">
+        <div class="recherche my-2">
           <form>
             <div class="input-group">
               <span class="input-group-text"><i class="bi-search"></i></span>
@@ -90,109 +90,97 @@
         </div>
 
         <!-- Catégories -->
-        <div class="categories">
-          <ul
-            class="list-group list-group-horizontal position-relative overflow-auto"
-          >
-            <li
-              type="button"
-              class="list-group-item border-0 list-group-item-action active category"
-            >
-              Toutes
+        <div class="categories my-2">
+          <ul class="list-unstyled">
+            <li class="d-inline-block">
+              <button type="button" class="btn btn-primary active">
+                Toutes
+              </button>
             </li>
-            <li
-              type="button"
-              class="list-group-item list-group-item-action category"
-            >
-              Installations interactives
+            <li class="d-inline-block">
+              <button type="button" class="btn btn-primary">
+                Installations interactives
+              </button>
             </li>
-            <li
-              type="button"
-              class="list-group-item list-group-item-action category"
-            >
-              Concerts
+            <li class="d-inline-block">
+              <button type="button" class="btn btn-primary">Concerts</button>
             </li>
           </ul>
         </div>
 
         <!-- Rangee En Vedette -->
-        <div id="vedette">
-          <section class="row">
-            <h2>En vedette</h2>
-            <div class="col-4">
-              <a href="artwork.html" class="card">
-                <img src="../assets/ai_imagination.png" class="card-img-top" />
-                <div class="card-body">
-                  <h4 class="card-title">World of Ai Imagination</h4>
-                  <p class="card-text">Par Artechouse studio</p>
-                  <div class="d-flex justify-content-between">
-                    <span class="date" class="text-start"
-                      ><i class="bi bi-calendar2-week-fill pe-1"></i> Jusqu'au
-                      17 mars </span
-                    ><span class="heure" class="text-end"
-                      ><i class="bi bi-clock-fill px-1"></i> 10h</span
-                    >
-                  </div>
-                  <div class="d-flex justify-content-between mt-3">
-                    <img class="artiste" src="../assets/logo.png" />
-                    <h4 href="#">
-                      Plus d'info <i class="bi bi-chevron-right"></i>
-                    </h4>
-                  </div>
+        <section id="vedette" class="row gy-1 gx-3 mt-1">
+          <h2>En vedette</h2>
+          <div class="col-4">
+            <a href="artwork.html" class="card">
+              <img src="../assets/ai_imagination.png" class="card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">World of Ai Imagination</h4>
+                <p class="card-text">Par Artechouse studio</p>
+                <div class="d-flex justify-content-between">
+                  <span class="date" class="text-start"
+                    ><i class="bi bi-calendar2-week-fill pe-1"></i> 17 mars </span
+                  ><span class="heure" class="text-end"
+                    ><i class="bi bi-clock-fill px-1"></i> 10h</span
+                  >
                 </div>
-              </a>
-            </div>
-            <div class="col-4">
-              <a href="artwork.html" class="card">
-                <img src="../assets/beyond_light.png" class="card-img-top" />
-                <div class="card-body">
-                  <h4 class="card-title">Beyond the light</h4>
-                  <p class="card-text">Par Artechouse studio</p>
-                  <div class="d-flex justify-content-between">
-                    <span class="date"
-                      ><i class="bi bi-calendar2-week-fill pe-1"></i> Jusqu'au 3
-                      mars </span
-                    ><span class="heure"
-                      ><i class="bi bi-clock-fill px-1"></i> 10h</span
-                    >
-                  </div>
-                  <div class="d-flex justify-content-between mt-3">
-                    <img class="artiste" src="../assets/logo.png" />
-                    <h4 href="#">
-                      Plus d'info <i class="bi bi-chevron-right"></i>
-                    </h4>
-                  </div>
+                <div class="d-flex justify-content-between mt-3">
+                  <img class="artiste" src="../assets/logo.png" />
+                  <h4 href="#">
+                    Plus d'info <i class="bi bi-chevron-right"></i>
+                  </h4>
                 </div>
-              </a>
-            </div>
-            <div class="col-4">
-              <a href="artwork.html" class="card">
-                <img src="../assets/miami_beach.png" class="card-img-top" />
-                <div class="card-body">
-                  <h4 class="card-title">Future Skecthes / Code poems</h4>
-                  <p class="card-text">Par Zach Liberman</p>
-                  <div class="d-flex justify-content-between">
-                    <span class="date"
-                      ><i class="bi bi-calendar2-week-fill pe-1"></i> Jusqu'au
-                      15 mai </span
-                    ><span class="heure"
-                      ><i class="bi bi-clock-fill px-1"></i> 13h</span
-                    >
-                  </div>
-                  <div class="d-flex justify-content-between mt-3">
-                    <img class="artiste" src="../assets/zach_liberman.jpg" />
-                    <h4 href="#">
-                      Plus d'info <i class="bi bi-chevron-right"></i>
-                    </h4>
-                  </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-4">
+            <a href="artwork.html" class="card">
+              <img src="../assets/beyond_light.png" class="card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">Beyond the light</h4>
+                <p class="card-text">Par Artechouse studio</p>
+                <div class="d-flex justify-content-between">
+                  <span class="date"
+                    ><i class="bi bi-calendar2-week-fill pe-1"></i> 3 mars </span
+                  ><span class="heure"
+                    ><i class="bi bi-clock-fill px-1"></i> 10h</span
+                  >
                 </div>
-              </a>
-            </div>
-          </section>
-        </div>
+                <div class="d-flex justify-content-between mt-3">
+                  <img class="artiste" src="../assets/logo.png" />
+                  <h4 href="#">
+                    Plus d'info <i class="bi bi-chevron-right"></i>
+                  </h4>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-4">
+            <a href="artwork.html" class="card">
+              <img src="../assets/miami_beach.png" class="card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">Future Skecthes / Code poems</h4>
+                <p class="card-text">Par Zach Liberman</p>
+                <div class="d-flex justify-content-between">
+                  <span class="date"
+                    ><i class="bi bi-calendar2-week-fill pe-1"></i> 15 mai </span
+                  ><span class="heure"
+                    ><i class="bi bi-clock-fill px-1"></i> 13h</span
+                  >
+                </div>
+                <div class="d-flex justify-content-between mt-3">
+                  <img class="artiste" src="../assets/zach_liberman.jpg" />
+                  <h4 href="#">
+                    Plus d'info <i class="bi bi-chevron-right"></i>
+                  </h4>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
 
         <!-- Autres oeuvres -->
-        <section id="autres" class="row">
+        <section id="autres" class="row gy-1 mt-3">
           <h2>Autres oeuvres et performances</h2>
           <div class="col-12">
             <a href="artwork.html" class="card mb-3">
@@ -202,8 +190,7 @@
                 <p class="card-text">Par Artechouse studio</p>
                 <div class="d-flex justify-content-between">
                   <span class="date" class="text-start"
-                    ><i class="bi bi-calendar2-week-fill pe-1"></i> Jusqu'au
-                    17 mars </span
+                    ><i class="bi bi-calendar2-week-fill pe-1"></i> 17 mars </span
                   ><span class="heure" class="text-end"
                     ><i class="bi bi-clock-fill px-1"></i> 10h</span
                   >
@@ -224,8 +211,7 @@
                 <p class="card-text">Par Artechouse studio</p>
                 <div class="d-flex justify-content-between">
                   <span class="date"
-                    ><i class="bi bi-calendar2-week-fill pe-1"></i> Jusqu'au 3
-                    mars </span
+                    ><i class="bi bi-calendar2-week-fill pe-1"></i> 3 mars </span
                   ><span class="heure"
                     ><i class="bi bi-clock-fill px-1"></i> 10h</span
                   >
@@ -246,8 +232,7 @@
                 <p class="card-text">Par Zach Liberman</p>
                 <div class="d-flex justify-content-between">
                   <span class="date"
-                    ><i class="bi bi-calendar2-week-fill pe-1"></i> Jusqu'au
-                    15 mai </span
+                    ><i class="bi bi-calendar2-week-fill pe-1"></i> 15 mai </span
                   ><span class="heure"
                     ><i class="bi bi-clock-fill px-1"></i> 13h</span
                   >
@@ -279,7 +264,7 @@
               <img
                 id="tim"
                 class="d-block ms-auto me-auto me-sm-0"
-                src="../assets/logo.png"
+                src="https://tim-montmorency.com/timdoc/shared/images/logo-tim.svg"
               />
             </div>
           </div>
