@@ -6,6 +6,7 @@
 
 body {
     background-color: var(--bs-dark);
+    overflow-x: hidden;
 }
 
 .recherche {
@@ -43,7 +44,7 @@ body {
 #footer {
     background-color: var(--bs-white);
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
@@ -51,13 +52,15 @@ body {
     border: none;
 }
 
-.vedette {
+#vedette {
     position: relative;
     top: 86px;
+    width: 140%;
 }
 
-.card {
+#vedette .card {
     text-decoration: none;
+    max-width: 200px;
 }
 
 .card-img-top {
@@ -65,8 +68,6 @@ body {
     object-fit: cover;
     object-position: 50%;
 }
-
-
 
 .date, .heure {
     font-size: 13px;
@@ -79,6 +80,19 @@ body {
 
 h4 {
     color: black;
-
 }
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    transform: scale(102%);
+}
+
+#autres {
+    position: relative;
+    top: 110px;
+}
+
 /*------ Section Hero ------*/
