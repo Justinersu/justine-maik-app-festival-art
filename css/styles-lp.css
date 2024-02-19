@@ -146,12 +146,16 @@ i {
   padding-top: 40px;
   margin-top: 100px;
 }
+#photogeorge {
+  height: 20vh;
+  object-position: 0% 50%;
+}
 
 #photoprofil {
-  margin-top: 5px;
-  width: 15vh;
   height: 20vh;
+  object-position: 0% 25%;
 }
+
 #iconcard {
   font-size: 20px;
 }
