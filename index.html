@@ -393,7 +393,39 @@
           -->
         </div>
       </div>
-      <div class="container" id="faq"></div>
+      <div class="bg-white">
+        <div class="container bg-white" id="faq">
+          <div class="text-center">
+            <h1 class="faqtitre text-dark">FAQ - Foire aux questions</h1>
+          </div>
+          <div class="accordion" id="faq-acordeon">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="header1">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapse1"
+                  aria-expanded="true"
+                  aria-controls="collapse1"
+                >
+                  question 1
+                </button>
+              </h2>
+
+              <div
+                id="collapse1"
+                class="accordion-collapse collapse"
+                aria-labelledby="header1"
+                data-bs-parent="#faq-acordeon"
+              >
+                <div class="accordion-body">reponse 1</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="container" id="infolettre"></div>
     </main>
 
