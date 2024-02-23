@@ -97,48 +97,58 @@ i {
   margin-bottom: 30px;
 }
 
+#iconcard {
+  position: absolute;
+  font-size: 20px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 @media screen and (max-width: 576px) {
   #carte {
-    height: 320px;
+    height: 50vh;
+  }
+  #cartetem {
+    height: 45vh;
+  }
+  #iconcard {
+    top: 23vh;
   }
 }
 @media screen and (min-width: 576px) {
   #carte {
-    height: 320px;
+    height: 50vh;
+  }
+  #cartetem {
+    height: 50vh;
+  }
+  #iconcard {
+    top: 23vh;
   }
 }
 
 @media screen and (min-width: 768px) {
   #carte {
-    height: 320px;
+    height: 50vh;
+  }
+  #cartetem {
+    height: 50vh;
+  }
+  #iconcard {
+    top: 23vh;
   }
 }
 
 @media screen and (min-width: 992px) {
   #carte {
-    height: 320px;
+    height: 50vh;
   }
-}
-@media screen and (max-width: 576px) {
   #cartetem {
-    height: 320px;
+    height: 53vh;
   }
-}
-@media screen and (min-width: 576px) {
-  #cartetem {
-    height: 360px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  #cartetem {
-    height: 360px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  #cartetem {
-    height: 360px;
+  #iconcard {
+    top: 23vh;
   }
 }
 
@@ -154,8 +164,4 @@ i {
 #photoprofil {
   height: 20vh;
   object-position: 0% 25%;
-}
-
-#iconcard {
-  font-size: 20px;
 }
