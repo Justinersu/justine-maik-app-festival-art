@@ -138,6 +138,9 @@ i {
   #iconcard {
     top: 23vh;
   }
+  #colinfo {
+    margin-left: 50%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -172,7 +175,8 @@ i {
 }
 
 #faq {
-  padding-bottom: 100px;
+  padding-top: 90px;
+  padding-bottom: 200px;
 }
 /*
 html
@@ -189,4 +193,45 @@ html
 
 #faq-acordeon > .accordion-item > .accordion-header:hover {
   border: solid 5px var(--bs-secondary);
+}
+/*
+#infolettre {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+*/
+#colinfo {
+  padding: 30px;
+  background-color: rgb(255, 255, 255, 0.8);
+}
+#infocontainer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#infolettre {
+  background-image: url("/assets/image_background_1.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
+#bouttoninfo {
+  margin-top: 30px;
+}
+
+#emailbox {
+  height: 45px;
+}
+
+.bi-envelope {
+  margin-top: 35px;
+}
+.email {
+  width: 300px;
+}
+
+#modalwindow {
+  position: center;
+}
+
+#boutoninscrire {
+  background-color: var(--bs-primary);
 }

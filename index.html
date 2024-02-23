@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <title>Document</title>
+    <title>Appli artechouse</title>
   </head>
   <body class="bg-dark" data-bs-spy="scroll" data-bs-target="#mainNav">
     <header>
@@ -514,26 +514,84 @@
         </div>
       </div>
 
-      <div class="container" id="infolettre">
-        <div class="row">
-          <div class="col-12 text-center col-md-6">
-            <h1 class="text-center">Infolettre</h1>
-            <p class="text-center text-white">
-              Abonnez-vous à notre infolettre pour recevoir des nouvelles sur
-              les mises-à-jour et nouvelles fonctionnalités de l’appli, en plus
-              de recevoir en primeur les détails des prochaines éditions du
-              festival.
-            </p>
-            <button id="bouttoninfo" type="button" class="btn btn-primary">
-              Je m'abonne
-            </button>
+      <div id="infolettre">
+        <div id="infocontainer" class="container">
+          <div class="row">
+            <div id="colinfo" class="col-12 text-center text-md-start col-md-6">
+              <h1 class="text-center text-black text-md-start mt-5">
+                Infolettre
+              </h1>
+              <p class="text-center text-md-start text-black">
+                Abonnez-vous à notre infolettre pour recevoir des nouvelles sur
+                les mises-à-jour et nouvelles fonctionnalités de l’appli, en
+                plus de recevoir en primeur les détails des prochaines éditions
+                du festival.
+              </p>
+              <button
+                id="bouttoninfo"
+                type="button"
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalwindow"
+              >
+                Je m'abonne
+              </button>
+            </div>
           </div>
         </div>
       </div>
     </main>
 
+    <div class="modal fade" id="modalwindow" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title text-black">Restez informé!</h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="input-group">
+                <span class="input-group-text" id="emailbox"
+                  ><i class="bi-envelope"></i
+                ></span>
+                <input
+                  id="emailbox"
+                  class="email"
+                  type="text"
+                  placeholder=" Veuillez entrer votre adresse courriel"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Annuler
+            </button>
+            <button
+              type="button"
+              id="boutoninscrire"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              M'inscrire
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!--- footer-->
-    <footer class="bg-primary mt-3 p-3">
+    <footer class="bg-primary p-3">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-6">
