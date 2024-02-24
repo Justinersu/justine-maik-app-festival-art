@@ -20,7 +20,9 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-dark fixed-top bg-transparent my-2">
+      <nav
+        class="navbar navbar-dark fixed-top bg-transparent my-2 position-absolute"
+      >
         <div class="container">
           <!-- Hamburger 
           <button
@@ -35,7 +37,9 @@
           </button> -->
 
           <!-- Bouton retour -->
-          <a href="index.html"><i class="bi bi-chevron-left h2"></i></a>
+          <a class="retour" href="index.html"
+            ><i class="bi bi-chevron-left h1"></i
+          ></a>
 
           <!-- Logo -->
           <a class="navbar-brand d-none" href="#top">
@@ -80,7 +84,109 @@
     </header>
 
     <main>
-      
+      <img class="artwork" src="../assets/ai_imagination.png" />
+
+      <section class="container">
+        <div class="row mx-2 gy-2 mt-3">
+          <!-- Details de l'oeuvre-->
+          <div class="col-12">
+            <h1 class="gy-3">World of Ai Imagination</h1>
+            <span class="details"
+              ><i class="bi bi-pin-map-fill pe-1"></i>New York
+              <i class="bi bi-calendar2-week-fill ps-2 pe-1"></i> 3 mars</span
+            >
+          </div>
+
+          <!-- Carte de l'artiste -->
+          <div class="col-12">
+            <div class="titre_artiste mt-3 mb-2">
+              <h2 class="pt-2">Artiste</h2>
+            </div>
+            <section class="card">
+              <img src="../assets/logo.png" class="card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">Artechouse studio</h4>
+                <p class="card-text">
+                  ARTECHOUSE est la première organisation artistique innovante
+                  du pays dédiée à l’intersection de l’art, de la science et de
+                  la technologie. En tant que pionnier dans le domaine de l’art
+                  expérientiel, il crée, produit et présente des expositions
+                  innovantes axées sur la technologie, élargissant les
+                  possibilités de l’art et la façon dont nous le vivons.
+                </p>
+                <div>
+                  <button
+                    class="btn en-savoir-plus"
+                    data-bs-toggle="modal"
+                    data-bs-target="#plus"
+                  >
+                    En savoir plus<i class="bi bi-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!-- Reservation accordeon -->
+          <div class="accordion" id="reservation">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="reservez">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#inscription"
+                  aria-expanded="true"
+                  aria-controls="inscription"
+                >
+                  Réservez votre place
+                </button>
+              </h2>
+
+              <div
+                id="inscription"
+                class="accordion-collapse collapse show"
+                aria-labelledby="reservez"
+                data-bs-parent="#reservation"
+              >
+                <div class="accordion-body">
+                  <form>
+                    <div class="form-group mb-2">
+                      <label for="courriel">Courriel</label>
+                      <input
+                        type="email"
+                        class="form-control mt-1"
+                        id="courriel"
+                        aria-describedby="emailHelp"
+                        placeholder="nom@example.com"
+                      />
+                    </div>
+                    <div class="form-group my-2">
+                      <label for="prenom">Prénom</label>
+                      <input
+                        type="text"
+                        class="form-control mt-1"
+                        id="prenom"
+                      />
+                    </div>
+                    <div class="form-group my-2">
+                      <label for="nom">Nom</label>
+                      <input type="text" class="form-control mt-1" id="nom" />
+                    </div>
+                    <div class="form-group my-2">
+                      <label for="date">Date</label>
+                      <input type="date" class="form-control mt-1" id="date" />
+                    </div>
+                    <button type="submit" class="btn btn-primary my-2">
+                      Envoyer
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
@@ -111,5 +217,45 @@
       crossorigin="anonymous"
     ></script>
     <script src="../js/script.js"></script>
+
+    <!-- Fenetre modale -->
+    <div class="modal fade" id="plus" tabindex="-1">
+      <div class="modal-dialog modal-sm modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title">Artechouse studio</h2>
+            <button
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Fermer la
+                fenêtre"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              ARTECHOUSE est la première organisation artistique innovante du
+              pays dédiée à l’intersection de l’art, de la science et de la
+              technologie. En tant que pionnier dans le domaine de l’art
+              expérientiel, il crée, produit et présente des expositions
+              innovantes axées sur la technologie, élargissant les possibilités
+              de l’art et la façon dont nous le vivons. Qu’il s’agisse d’espaces
+              artistiques immersifs ou d’une application mobile de réalité
+              étendue (XR), ARTECHOUSE est l’endroit où les curieux de tous âges
+              se rendent pour faire l’expérience de l’innovation créative sans
+              limites. Fondée en 2015, ARTECHOUSE est devenue la première
+              destination, à la fois en ligne et hors ligne, pour l’art axé sur
+              la technologie. En utilisant les plus grandes projections de
+              mégapixels de toutes les institutions culturelles et en intégrant
+              la technologie Hyperreal Sound, ARTECHOUSE NYC offre aux visiteurs
+              et aux artistes la plate-forme artistique la plus avancée au monde
+              sur le plan technologique. Occupant un espace de chaufferie vieux
+              de 100 ans sous l’emblématique marché de Chelsea, ARTECHOUSE NYC
+              est l’une des destinations artistiques et des choses les plus
+              uniques à faire à New York.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
