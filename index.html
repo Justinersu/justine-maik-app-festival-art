@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex,nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="scss/custom_bootstrap.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/styles-lp.css" />
@@ -46,6 +51,9 @@
               </li>
               <li class="navbar-item">
                 <a href="#section-feature" class="nav-link">Fonctionnalité</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#voirplus" class="nav-link">Voir plus</a>
               </li>
               <li class="navbar-item">
                 <a href="#section-testimonials" class="nav-link">Témoignages</a>
@@ -236,167 +244,173 @@
           </div>
         </div>
       </div>
-      <div class="container bg-black" id="section-testimonials">
-        <div class="row">
-          <div class="text-center col-12">
-            <h1 id="titretem text-white">Témoignages</h1>
-            <p class="text-white mb-5">
-              Voici quelques commentaires venant des utilisateurs qui ont vécu
-              une expérience exceptionnelle en utilisant cet appli.
-            </p>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-10 col-sm-6 col-lg-3 mb-4">
-            <div id="cartetem" class="card bg-secondary text-center">
-              <img
-                id="photoprofil"
-                src="assets/photo_profil_1.jpg"
-                alt=""
-                class="card-img-top align-self-center object-fit-cover border rounded"
-              />
-              <div class="card-body">
-                <i id="iconborder" class="bi bi-chat-square"> </i>
-                <i id="iconcard" class="bi bi-quote align-self-start"></i>
-
-                <div class="card-title">
-                  <h3 class="text-black">Sofia</h3>
-                </div>
-
-                <p class="textexpli text-black">
-                  Je suis une festivalière assidue, et grâce à l'application, je
-                  ne rate plus aucun événement. La facilité avec laquelle je
-                  peux trouver des festivals multimédias à proximité est
-                  incroyable.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-10 col-sm-6 col-lg-3 mb-4">
-            <div id="cartetem" class="card bg-secondary text-center">
-              <img
-                id="photoprofil"
-                src="assets/photo_profil_2.jpg"
-                alt=""
-                class="card-img-top align-self-center object-fit-cover border rounded"
-              />
-              <div class="card-body">
-                <i id="iconborder" class="bi bi-chat-square"> </i>
-                <i id="iconcard" class="bi bi-quote align-self-start"></i>
-                <div class="card-title">
-                  <h3 class="text-black">Camille</h3>
-                </div>
-
-                <p class="textexpli text-black">
-                  Une interface intuitive et des informations détaillées font de
-                  cette application mon guide idéal vers des aventures
-                  artistiques exceptionnelles.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-10 col-sm-6 col-lg-3 mb-4">
-            <div id="cartetem" class="card bg-secondary text-center">
-              <img
-                id="photoprofil"
-                src="assets/photo_profil_3.jpg"
-                alt=""
-                class="card-img-top align-self-center object-fit-cover border rounded"
-              />
-              <div class="card-body">
-                <i id="iconborder" class="bi bi-chat-square"> </i>
-                <i id="iconcard" class="bi bi-quote align-self-start"></i>
-                <div class="card-title">
-                  <h3 class="text-black">Gabriel</h3>
-                </div>
-                <p class="textexpli text-black">
-                  Elle me permet de repérer des festivals multimédias uniques
-                  pour proposer des expériences innovantes à mes clients. Un
-                  outil précieux pour rester à la pointe de l'industrie
-                  événementielle.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-10 col-sm-6 col-lg-3 mb-4">
-            <div id="cartetem" class="card bg-secondary text-center">
-              <img
-                id="photoprofil"
-                src="assets/photo_profil_4.jpg"
-                alt=""
-                class="card-img-top align-self-center object-fit-cover border rounded"
-              />
-              <div class="card-body">
-                <i id="iconborder" class="bi bi-chat-square"> </i>
-                <i id="iconcard" class="bi bi-quote align-self-start"></i>
-                <div class="card-title">
-                  <h3 class="text-black">Alexandre</h3>
-                </div>
-                <p class="textexpli text-black">
-                  Un outil essentiel pour ceux qui cherchent des oeuvres faisant
-                  vivre des expériences immersives uniques .
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-10 col-sm-6 col-lg-3 mb-4">
-            <div id="cartetem" class="card bg-secondary text-center">
-              <img
-                id="photoprofil"
-                src="assets/photo_profil_5.jpg"
-                alt=""
-                class="card-img-top align-self-center object-fit-cover border rounded"
-              />
-              <div class="card-body">
-                <i id="iconborder" class="bi bi-chat-square"> </i>
-                <i id="iconcard" class="bi bi-quote align-self-start"></i>
-                <div class="card-title">
-                  <h3 class="text-black">Laura</h3>
-                </div>
-                <p class="textexpli text-black">
-                  En tant que créatrice de contenu, je suis toujours à la
-                  recherche de festivals pour m'inspirer. Cette application est
-                  un bon outil pour dénicher des événements uniques.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-10 col-sm-6 col-lg-3 mb-4">
-            <div id="cartetem" class="card bg-secondary text-center">
-              <img
-                id="photogeorge"
-                src="assets/photo_profil_6.jpg"
-                alt=""
-                class="card-img-top align-self-center object-fit-cover border rounded"
-              />
-              <div class="card-body">
-                <i id="iconborder" class="bi bi-chat-square"> </i>
-                <i id="iconcard" class="bi bi-quote align-self-start"></i>
-                <div class="card-title">
-                  <h3 class="text-black">George</h3>
-                </div>
-                <p class="textexpli text-black">
-                  Une navigation fluide qui complète parfaitement l'essence de
-                  l'application..
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!--
-          <div class="col-10"></div>
-          <div class="col-10"></div>
-          <div class="col-10"></div>
-          <div class="col-10"></div>
-          <div class="col-10"></div>
-          -->
+      <div class="container" id="voirplus">
+        <div class="text-center">
+          <h1>Prévisualisez l'interface de l'appli</h1>
         </div>
       </div>
       <div class="bg-white">
-        <div class="container bg-white" id="faq">
+        <div class="container bg-white" id="section-testimonials">
+          <div class="row">
+            <div class="text-center col-12">
+              <h1 class="text-black">Témoignages</h1>
+              <p class="text-black mb-5">
+                Voici quelques commentaires venant des utilisateurs qui ont vécu
+                une expérience exceptionnelle en utilisant cet appli.
+              </p>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-10 col-sm-6 col-lg-3 mb-4">
+              <div id="cartetem" class="card bg-secondary text-center">
+                <img
+                  id="photoprofil"
+                  src="assets/photo_profil_1.jpg"
+                  alt=""
+                  class="card-img-top align-self-center object-fit-cover border rounded"
+                />
+                <div class="card-body">
+                  <i id="iconborder" class="bi bi-chat-square"> </i>
+                  <i id="iconcard" class="bi bi-quote align-self-start"></i>
+
+                  <div class="card-title">
+                    <h3 class="text-black">Sofia</h3>
+                  </div>
+
+                  <p class="textexpli text-black">
+                    Je suis une festivalière assidue, et grâce à l'application,
+                    je ne rate plus aucun événement. La facilité avec laquelle
+                    je peux trouver des festivals multimédias à proximité est
+                    incroyable.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-sm-6 col-lg-3 mb-4">
+              <div id="cartetem" class="card bg-secondary text-center">
+                <img
+                  id="photoprofil"
+                  src="assets/photo_profil_2.jpg"
+                  alt=""
+                  class="card-img-top align-self-center object-fit-cover border rounded"
+                />
+                <div class="card-body">
+                  <i id="iconborder" class="bi bi-chat-square"> </i>
+                  <i id="iconcard" class="bi bi-quote align-self-start"></i>
+                  <div class="card-title">
+                    <h3 class="text-black">Camille</h3>
+                  </div>
+
+                  <p class="textexpli text-black">
+                    Une interface intuitive et des informations détaillées font
+                    de cette application mon guide idéal vers des aventures
+                    artistiques exceptionnelles.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-sm-6 col-lg-3 mb-4">
+              <div id="cartetem" class="card bg-secondary text-center">
+                <img
+                  id="photoprofil"
+                  src="assets/photo_profil_3.jpg"
+                  alt=""
+                  class="card-img-top align-self-center object-fit-cover border rounded"
+                />
+                <div class="card-body">
+                  <i id="iconborder" class="bi bi-chat-square"> </i>
+                  <i id="iconcard" class="bi bi-quote align-self-start"></i>
+                  <div class="card-title">
+                    <h3 class="text-black">Gabriel</h3>
+                  </div>
+                  <p class="textexpli text-black">
+                    Elle me permet de repérer des festivals multimédias uniques
+                    pour proposer des expériences innovantes à mes clients. Un
+                    outil précieux pour rester à la pointe de l'industrie
+                    événementielle.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-sm-6 col-lg-3 mb-4">
+              <div id="cartetem" class="card bg-secondary text-center">
+                <img
+                  id="photoprofil"
+                  src="assets/photo_profil_4.jpg"
+                  alt=""
+                  class="card-img-top align-self-center object-fit-cover border rounded"
+                />
+                <div class="card-body">
+                  <i id="iconborder" class="bi bi-chat-square"> </i>
+                  <i id="iconcard" class="bi bi-quote align-self-start"></i>
+                  <div class="card-title">
+                    <h3 class="text-black">Alexandre</h3>
+                  </div>
+                  <p class="textexpli text-black">
+                    Un outil essentiel pour ceux qui cherchent des oeuvres
+                    faisant vivre des expériences immersives uniques .
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-sm-6 col-lg-3 mb-4">
+              <div id="cartetem" class="card bg-secondary text-center">
+                <img
+                  id="photoprofil"
+                  src="assets/photo_profil_5.jpg"
+                  alt=""
+                  class="card-img-top align-self-center object-fit-cover border rounded"
+                />
+                <div class="card-body">
+                  <i id="iconborder" class="bi bi-chat-square"> </i>
+                  <i id="iconcard" class="bi bi-quote align-self-start"></i>
+                  <div class="card-title">
+                    <h3 class="text-black">Laura</h3>
+                  </div>
+                  <p class="textexpli text-black">
+                    En tant que créatrice de contenu, je suis toujours à la
+                    recherche de festivals pour m'inspirer. Cette application
+                    est un bon outil pour dénicher des événements uniques.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-10 col-sm-6 col-lg-3 mb-4">
+              <div id="cartetem" class="card bg-secondary text-center">
+                <img
+                  id="photogeorge"
+                  src="assets/photo_profil_6.jpg"
+                  alt=""
+                  class="card-img-top align-self-center object-fit-cover border rounded"
+                />
+                <div class="card-body">
+                  <i id="iconborder" class="bi bi-chat-square"> </i>
+                  <i id="iconcard" class="bi bi-quote align-self-start"></i>
+                  <div class="card-title">
+                    <h3 class="text-black">George</h3>
+                  </div>
+                  <p class="textexpli text-black">
+                    Une navigation fluide qui complète parfaitement l'essence de
+                    l'application..
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--
+          <div class="col-10"></div>
+          <div class="col-10"></div>
+          <div class="col-10"></div>
+          <div class="col-10"></div>
+          <div class="col-10"></div>
+          --></div>
+        </div>
+      </div>
+      <div class="bg-black">
+        <div class="container bg-black" id="faq">
           <div class="text-center">
-            <h1 class="faqtitre text-dark">FAQ - Foire aux questions</h1>
+            <h1 class="faqtitre text-white">FAQ - Foire aux questions</h1>
           </div>
           <div class="accordion" id="faq-acordeon">
             <div class="accordion-item">
@@ -609,6 +623,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
