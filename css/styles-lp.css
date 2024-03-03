@@ -234,3 +234,30 @@ html
 #boutoninscrire {
   background-color: var(--bs-primary);
 }
+
+.swiper-screenshots img {
+  border-radius: 25px;
+  border-style: inset;
+  border-width: 5px;
+  border-color: var(--bs-primary);
+  width: 37vh;
+  height: 67vh;
+}
+
+#voirplus {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.swiper-screenshots .swiper-button-prev,
+.swiper-screenshots .swiper-button-next {
+  border-style: solid;
+  border-radius: 30px;
+  width: 8vh;
+  height: 8vh;
+  background-color: var(--bs-secondary);
+}
+
+.swiper-screenshots {
+  width: 100%;
+}
