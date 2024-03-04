@@ -4,8 +4,8 @@ const swiperlp = new Swiper(".swiper-screenshots", {
   observer: true,
 
   navigation: {
-    prevEL: ".btn-prev",
     nextEL: ".btn-next",
+    prevEL: ".btn-prev",
   },
   breakpoints: {
     1200: {
