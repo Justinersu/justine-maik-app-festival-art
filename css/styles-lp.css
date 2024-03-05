@@ -261,3 +261,11 @@ html
 .swiper-screenshots {
   width: 100%;
 }
+
+#texte-voirplus {
+  margin-bottom: 50px;
+}
+
+.swiper-slide {
+  box-shadow: 0 15 50;
+}
