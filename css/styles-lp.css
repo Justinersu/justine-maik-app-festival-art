@@ -252,10 +252,12 @@ html
 .swiper-screenshots .swiper-button-prev,
 .swiper-screenshots .swiper-button-next {
   border-style: solid;
+  border-color: var(--bs-secondary);
   border-radius: 30px;
   width: 8vh;
   height: 8vh;
   background-color: var(--bs-secondary);
+  color: var(--bs-dark);
 }
 
 .swiper-screenshots {
@@ -265,7 +267,19 @@ html
 #texte-voirplus {
   margin-bottom: 50px;
 }
-
 .swiper-slide {
-  box-shadow: 0 15 50;
+  opacity: 50%;
 }
+
+.swiper-slide-active {
+  opacity: 100%;
+}
+/*
+
+.btn-prev,
+.btn-next {
+  position: absolute;
+  width: 8vh;
+  height: 8vh;
+}
+*/

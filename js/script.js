@@ -1,4 +1,4 @@
-const swiperlp = new Swiper(".swiper-screenshots", {
+let swiper = new Swiper(".swiper-screenshots", {
   effect: "coverflow",
   loop: true,
   slidesPerView: 1,
@@ -10,10 +10,10 @@ const swiperlp = new Swiper(".swiper-screenshots", {
     stretch: 0,
     slideShadows: true,
   },
-
+  centeredSlides: true,
   navigation: {
-    nextEL: ".btn-next",
-    prevEL: ".btn-prev",
+    nextEL: ".swiper-button-prev btn-next",
+    prevEL: ".swiper-button-next btn-prev",
   },
   breakpoints: {
     1200: {
