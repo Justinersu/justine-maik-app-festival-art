@@ -81,6 +81,15 @@ iframe {
 #titrefonct {
   color: var(--bs-dark);
 }
+/*-----section footer------*/
+#liengithub {
+  color: var(--bs-dark);
+  text-decoration: none;
+}
+#liengithub:hover {
+  color: var(--bs-secondary);
+}
+/*-------Section features-----*/
 
 #section-feature {
   padding-top: 80px;
@@ -105,7 +114,11 @@ i {
   right: 0;
 }
 
+/*-------media queries pour le projet au complet-----*/
 @media screen and (max-width: 576px) {
+  #texte {
+    margin-top: 0;
+  }
   #carte {
     height: 50vh;
   }
@@ -116,6 +129,7 @@ i {
     top: 23vh;
   }
 }
+
 @media screen and (min-width: 576px) {
   #carte {
     height: 50vh;
@@ -125,6 +139,12 @@ i {
   }
   #iconcard {
     top: 23vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #texte {
+    margin-top: 0;
   }
 }
 
@@ -143,7 +163,21 @@ i {
   }
 }
 
+@media screen and (max-width: 992px) {
+  #texte {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  iframe {
+    margin-top: 100px;
+  }
+}
 @media screen and (min-width: 992px) {
+  #texte {
+    margin-top: 200px;
+  }
   #carte {
     height: 50vh;
   }
@@ -154,6 +188,8 @@ i {
     top: 23vh;
   }
 }
+
+/*------ section testimonials---*/
 
 #section-testimonials {
   padding-top: 40px;
@@ -189,6 +225,8 @@ html
   border: solid 5px var(--bs-secondary);
 }
 */
+
+/*-------section faq------*/
 
 #faq-acordeon > .accordion-item > .accordion-header:hover {
   border: solid 5px var(--bs-secondary);
@@ -243,6 +281,8 @@ html
   width: 37vh;
   height: 67vh;
 }
+
+/*------section voir plus------*/
 
 #voirplus {
   margin-top: 100px;
