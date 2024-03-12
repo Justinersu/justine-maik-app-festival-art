@@ -22,3 +22,17 @@ let swiper = new Swiper(".swiper-screenshots", {
     },
   },
 });
+
+const swiperFilters = new Swiper(".swiper-filters", {
+  direction: 'horizontal',
+  freeMode: true,
+  slidesPerView: 'auto',
+  spaceBetween: 6,
+});
+
+const swiperFeatured = new Swiper(".swiper-featured-artworks", {
+  direction: 'horizontal',
+  slidesPerView: 2.2,
+  freeMode: true,
+  spaceBetween: 6,
+});
