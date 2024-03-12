@@ -33,7 +33,7 @@ body {
 }
 
 .profil {
-    height: 30px;
+    height: 35px;
 }
 
 #tim {
@@ -94,30 +94,26 @@ h4 {
     border-radius: 30px;
 }
 
-.bi-chevron-left, .bi-hand-thumbs-up-fill {
-    color: var(--bs-primary);
-}
-
 .artwork {
     position: relative;
     top: 33%;
     width: 100%;
 }
 
-.bi-hand-thumbs-up-fill, .retour {
+.jaime, .retour {
     background-color: var(--bs-dark);
     border-radius: 50px;
-    width: 40px;
-    height: 40px;
+    line-height: 30px;
+    width: 35px;
+    height: 35px;
     text-align: center;
-    line-height: 40px;
+    right: 15px;
 }
 
-.bi-chevron-left {
-    line-height: 40px;
-    display: block;
+.bi-chevron-left, .bi-hand-thumbs-up-fill {
+    color: var(--bs-primary);
+    top: 3.5px;
     position: relative;
-    right: 2.5px;
 }
 
 .details {
