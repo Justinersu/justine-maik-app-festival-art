@@ -34,5 +34,5 @@ const swiperFeatured = new Swiper(".swiper-featured-artworks", {
   direction: 'horizontal',
   slidesPerView: 2.2,
   freeMode: true,
-  spaceBetween: 6,
+  spaceBetween: 10,
 });
